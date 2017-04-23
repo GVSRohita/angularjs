@@ -1,0 +1,73 @@
+.img {
+    width: 20%;
+    float: left;
+}
+.img-top {
+    margin: 15px 0 0 0;
+}
+.img1 {
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+.img2 {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+.img3 {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.img4 {
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.img5 {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+.img6 {
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+.background-img {
+    height: 40px;
+    width: 100%;
+    background-color: #eee;
+    /*background-image: url("../captchaImages/captchamatrix.jpg");*/
+}
+.reload { 
+    font-family: Lucida Sans Unicode;
+    font-size: 30px;
+    font-weight: 600;
+    color: green;
+}
+.reload-captcha { 
+    font-family: Lucida Sans Unicode;
+    font-size: 30px;
+    font-weight: 600;
+    color: green;
+}
+.reload-otp { 
+    font-family: Lucida Sans Unicode;
+    font-size: 30px;
+    font-weight: 600;
+    color: #204d74;
+}

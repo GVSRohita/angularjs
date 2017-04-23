@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css" media="screen" />
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css" media="screen" />
+        <link rel="stylesheet" href="css/CL_Menu.css" media="screen" />
+        <link rel="stylesheet" href="css/media.css" media="screen" />
+        <script src="jquery/jquery-1.11.3.min.js"></script>  
+        <script src="bootstrap/bootstrap.min.js"></script>
+        <script src="ng/ng.js"></script>
+        <script src="ng/ng-animate.js"></script>
+        <title>VSGH Medical Referral System</title>
+    </head>
+    <body>
+        <div class="container" ng-app="menuApp" ng-controller="menuCtrl">
+            <div id="ID_DIV_HEADING" class="row">
+                <div id="ID_MENU_TOP_CONTACTS" class="col-md-12 col-sm-12 col-xs-12 menu_tab menu_rightside">
+                    <div style='float:left;'>&nbsp;&nbsp;&nbsp;Share<a href="mailto:gvsrohita@gmail.com?subject=Awesome%20Experience%20">&nbsp;&nbsp;&nbsp;your experience</a></div>                        
+                </div>
+                <div id="ID_DIV_HEADING_LARGE" class="col-md-12 col-sm-12 col-xs-12">
+                    <img src="images/duddu-header.png" width="100%">
+                </div>
+                <div id="ID_DIV_HEADING_SMALL" class="col-md-12 col-sm-12 col-xs-12">
+                    <H4>VSGH Medical Referral System</H4>
+                </div>
+            </div>
+            <div class="row menu_tab1">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="menu_rightside" style="float: left;">&nbsp;Hi, <span ng-bind="userName"></div>
+                    <div id="ID_DIV_HAMBURGER" style="float: right;"><img src="images/hamburger_white.png" height="25" ng-click="showMenuFn()"></div>
+                </div>                   
+                <div class="col-md-12 col-sm-12 col-xs-12 menu_tab"> 
+                    <nav>
+                        <div class="row">
+                            <ul class="cf">
+                                <li class="col-md-2 col-sm-2 col-xs-12" ng-repeat="x in menuItems">
+                                    <a href= {{x.FORM_NAME}} >{{x.DISPLAY_TEXT}}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>                    
+                </div>
+            </div>
+            <div class="row">
+                <div style="width: 1px; background-color: blue; float: right; overflow: visible;">
+                    <div class="infoBox nav1" ng-hide="showMenu">
+                        <ul class="cf">
+                            <li class="col-md-12 col-sm-12 col-xs-12" ng-repeat="x in menuItems">
+                                <a href= {{x.FORM_NAME}} >{{x.DISPLAY_TEXT}}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/menu.js"></script>
+    </body>
+</html>

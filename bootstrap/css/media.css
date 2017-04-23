@@ -1,0 +1,11 @@
+@media screen and (max-width: 550px) {
+    nav, #ID_MENU_TOP_CONTACTS, #ID_DIV_HEADING_LARGE {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 551px) {
+    #ID_DIV_HEADING_SMALL, #ID_DIV_HAMBURGER, .infoBox {
+        display: none;
+    }
+}

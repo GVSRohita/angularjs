@@ -1,0 +1,78 @@
+
+/* Login Block */
+#homebg-div
+{
+    height:550px;
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+    background-image:url(../images/home-page-pic.png);    
+}
+
+#login-block
+{
+
+    margin-left:30px;
+    margin-right:auto;
+    margin-top:350px;
+    position:absolute;
+    width:300px;
+    border:0px solid #000000;
+    font-family:Verdana;
+    font-weight:bold;
+    color:#ffffff;
+
+}
+
+#login-right-block
+{
+    margin-left: 400px;
+    margin-right: auto;
+    margin-top: 220px;
+    position:absolute;
+    width:550px;
+    border:0px solid #000000;
+    font-family:Verdana;
+    /*font-weight:bold;*/
+    font-size: 30px;
+    color: #000;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#login-right-block:hover {
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+.login-span
+{
+    color: yellow;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+root { 
+    display: block;
+
+}
+
+#login_btn
+{
+    border-radius: 8px; 
+    color:#eeeeee;
+    font-weight:bold;
+    font-size:large;
+    width:80px;
+    height:30px;
+    border: solid 1px #357108;
+    background: #57AA19;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6DCA28), to(#357108));
+    background: -moz-linear-gradient(top, #6DCA28, #357108);
+
+}
+
+#login_btn:hover{
+    background: #4DAD06;
+    color: #ffffff;
+}
