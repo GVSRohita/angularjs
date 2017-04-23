@@ -1,4 +1,5 @@
 //Model
+var userNameVar = 'Ritvik Goparaju';
 var menuItemsArray = [
     {"FORM_NAME": "home.html", "MENU_NO": "10", "DISPLAY_TEXT": "Home"},
     {"FORM_NAME": "myprofile.html", "MENU_NO": "15", "DISPLAY_TEXT": "My Profile"},
@@ -14,7 +15,7 @@ var app = angular.module('menuApp', ['ngAnimate']);
 //NG-Controller
 app.controller('menuCtrl', function ($scope) {
     $scope.menuItems = menuItemsArray;
-    $scope.userName = 'Rohita Goparaju';
+    $scope.userName = userNameVar;
     $scope.showMenu = false;
     $scope.showMenuFn = function () {
         $scope.showMenu = !$scope.showMenu;
